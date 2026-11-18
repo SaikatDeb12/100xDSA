@@ -1,0 +1,3 @@
+Abundant
+Deficient
+Perfect

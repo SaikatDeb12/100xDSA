@@ -1,0 +1,24 @@
+
+async function createCode(filepath, cb) {
+    fs.readFile(filepath, "utf-8", (err, data) => {
+       if(err) {
+
+       } else {
+           content = JSON.parse(data);
+           let count = 0;
+           let len = content.length;
+           content.forEach((path, contents)=>{
+                fs.writeFile(path, contents, (err)=>{
+                    if(err) {
+                                               
+                    }              
+                    count++;
+                })
+           })
+           if(count == len) {
+               cb("done");
+           }
+       }
+    })
+}
+

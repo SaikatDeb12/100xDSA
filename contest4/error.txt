@@ -1,0 +1,2 @@
+[D. Equilibrium Points.cpp:74] (p): {1, 4, 9, 11, 13}
+[D. Equilibrium Points.cpp:75] (s): {13, 12, 9, 4, 2}
